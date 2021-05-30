@@ -12,7 +12,7 @@ class App extends React.Component {
 			robots: [],
 			searchValue: "",
 			style1 : {height: '23%'},
-			style2 : {marginBottom: '18px'},
+			style2 : {marginBottom: '18px',fontSize: '40px'},
 		};
 	}
 
@@ -27,10 +27,10 @@ class App extends React.Component {
 
 	trackScrolling = () => {
 		let style3 = {height:'18%', transition: 'height 0.4s linear'};
-		let style4 = {fontSize: '35px'};
+		let style4 = {fontSize: '30px'};
 		if(window.pageYOffset<=120) {
 			style3 = { height: "23%", transition: 'height 0.4s linear'};
-			style4 = { fontSize: '48px',marginBottom: '18px'};
+			style4 = { fontSize: '40px',marginBottom: '18px'};
 		}
 		this.setState({style1: style3});
 		this.setState({style2: style4});
