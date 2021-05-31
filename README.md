@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+Check out the live demo of the Project. [Click Here](https://mazer225.github.io/robofriends/)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
